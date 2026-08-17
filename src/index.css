@@ -1,0 +1,68 @@
+:root {
+  --bg: #f4f4f2;
+  --bg-elevated: #ffffff;
+  --ink: #111111;
+  --muted: #5c5c5c;
+  --line: #d8d8d4;
+  --accent: #0d4a42;
+  --accent-soft: #e6efed;
+
+  --font-display: "IBM Plex Serif", Georgia, serif;
+  --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --nav-h: 4rem;
+  --measure: 68rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: min(var(--measure), calc(100% - 3rem));
+  margin-inline: auto;
+}
+
+.container--narrow {
+  width: min(42rem, calc(100% - 3rem));
+}
