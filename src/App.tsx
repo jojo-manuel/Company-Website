@@ -68,7 +68,7 @@ function App() {
       <header className={`nav ${scrolled ? "nav--solid" : ""}`}>
         <div className="container nav__row">
           <a className="nav__logo" href="#top" onClick={closeMenu}>
-            ÉclatTech
+            EclatTech
           </a>
 
           <button
@@ -109,7 +109,7 @@ function App() {
           </div>
           <div className="hero__veil" aria-hidden="true" />
           <div className="container hero__copy">
-            <p className="hero__name">ÉclatTech Technologies</p>
+            <p className="hero__name">EclatTech Technologies</p>
             <h1 className="hero__line">
               Software systems for manufacturing, agriculture, and hospitality.
             </h1>
@@ -124,7 +124,7 @@ function App() {
             <h2 className="block__title">Company profile</h2>
             <div className="company__text">
               <p>
-                ÉclatTech Technologies is a software firm based in Kerala. We design and deliver
+                EclatTech Technologies is a software firm based in Kerala. We design and deliver
                 operational systems—enterprise platforms, field monitoring solutions, and customer-facing
                 web applications.
               </p>
@@ -136,7 +136,7 @@ function App() {
               <dl className="profile__facts">
                 <div>
                   <dt>Company</dt>
-                  <dd>ÉclatTech Technologies</dd>
+                  <dd>EclatTech Technologies</dd>
                 </div>
                 <div>
                   <dt>Based in</dt>

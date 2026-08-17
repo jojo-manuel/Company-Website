@@ -1,4 +1,4 @@
-# Company Website
+# EclatTech Technologies
 
 A modern React + TypeScript + Vite company web application built with Framer Motion and styled with CSS.
 
